@@ -13,7 +13,7 @@ jobs:
     - name: Step one
       run:  echo hello-world
     - name: Step two
-      run: echo bye-world
+      uses: actions/checkout@v2
     - name: Step three
       run: ls -l && pwd
 
